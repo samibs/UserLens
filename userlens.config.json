@@ -1,0 +1,41 @@
+{
+  "framework": "vue",
+  "entry": "./src",
+  "output": "./userlens-docs",
+  "theme": "default",
+  "features": [
+    "forms",
+    "navigation",
+    "authentication"
+  ],
+  "customMappings": {
+    "UserDashboard": "Your Personal Dashboard",
+    "AdminPanel": "Administrative Controls",
+    "ProfileSettings": "Your Profile Settings"
+  },
+  "excludePatterns": [
+    "*.test.*",
+    "**/internal/**",
+    "**/utils/**",
+    "**/helpers/**"
+  ],
+  "pluginPaths": [
+    "./examples/plugins/userlens-analyzer-vue-stub/src/index.ts",
+    "./examples/plugins/userlens-generator-html/src/index.ts"
+  ],
+  "plugins": {
+    "userlens-analyzer-vue-stub": {
+      "enabled": true,
+      "config": {
+        "testOption": "helloFromConfig",
+        "vueVersion": 3
+      }
+    },
+    "userlens-generator-html": {
+      "enabled": true,
+      "config": {
+        "theme": "default-light"
+      }
+    }
+  }
+}

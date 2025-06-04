@@ -1,0 +1,16 @@
+{
+  "name": "userlens-analyzer-vue-stub",
+  "version": "0.1.0",
+  "description": "A stub Vue analyzer plugin for UserLens.",
+  "main": "dist/index.js",
+  "userlens": {
+    "type": "analyzer",
+    "name": "VueAnalyzerStub",
+    "frameworks": ["vue", "vue3"]
+  },
+  "scripts": {
+    "build": "echo 'Build script not implemented for stub' && exit 0"
+  },
+  "keywords": ["userlens-plugin", "userlens-analyzer"],
+  "license": "MIT"
+}

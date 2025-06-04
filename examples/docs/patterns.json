@@ -1,0 +1,135 @@
+[
+  {
+    "name": "search",
+    "description": "Search and filtering functionality",
+    "userGoal": "Find specific information",
+    "components": [
+      {
+        "name": "ProductSearch",
+        "filePath": "examples\\react-app\\src\\components\\ProductSearch.jsx",
+        "props": [
+          {
+            "name": "onSearch",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "categories",
+            "type": "any",
+            "required": false
+          }
+        ],
+        "children": [],
+        "userActions": [],
+        "semanticCategory": "layout",
+        "description": "Find what you need"
+      }
+    ],
+    "actions": [],
+    "confidence": 0.175
+  },
+  {
+    "name": "form-submission",
+    "description": "Data entry and submission",
+    "userGoal": "Submit information",
+    "components": [
+      {
+        "name": "LoginForm",
+        "filePath": "examples\\react-app\\src\\components\\LoginForm.jsx",
+        "props": [
+          {
+            "name": "onLogin",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "redirectUrl",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "showRegisterLink",
+            "type": "any",
+            "required": false
+          }
+        ],
+        "children": [],
+        "userActions": [],
+        "semanticCategory": "form",
+        "description": "Sign in to your account"
+      }
+    ],
+    "actions": [],
+    "confidence": 0.13999999999999999
+  },
+  {
+    "name": "authentication",
+    "description": "User authentication flow",
+    "userGoal": "Access your account securely",
+    "components": [
+      {
+        "name": "LoginForm",
+        "filePath": "examples\\react-app\\src\\components\\LoginForm.jsx",
+        "props": [
+          {
+            "name": "onLogin",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "redirectUrl",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "showRegisterLink",
+            "type": "any",
+            "required": false
+          }
+        ],
+        "children": [],
+        "userActions": [],
+        "semanticCategory": "form",
+        "description": "Sign in to your account"
+      }
+    ],
+    "actions": [],
+    "confidence": 0.11666666666666665
+  },
+  {
+    "name": "navigation",
+    "description": "Navigation through the application",
+    "userGoal": "Move between different sections",
+    "components": [
+      {
+        "name": "Navigation",
+        "filePath": "examples\\react-app\\src\\components\\Navigation.jsx",
+        "props": [
+          {
+            "name": "user",
+            "type": "any",
+            "required": false
+          },
+          {
+            "name": "onLogout",
+            "type": "any",
+            "required": false
+          }
+        ],
+        "children": [],
+        "userActions": [
+          {
+            "type": "navigation",
+            "trigger": "Navigation",
+            "description": "Click the navigation",
+            "outcome": "Navigates to another page"
+          }
+        ],
+        "semanticCategory": "navigation",
+        "description": "Navigate through the application"
+      }
+    ],
+    "actions": [],
+    "confidence": 0.09999999999999999
+  }
+]

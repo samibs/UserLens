@@ -1,0 +1,25 @@
+{
+  "name": "userlens-generator-html",
+  "version": "0.1.0",
+  "description": "Generates static HTML documentation from UserLens analysis results.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "echo 'Build script not implemented for stub HTML generator' && tsc || exit 0"
+  },
+  "keywords": [
+    "userlens",
+    "userlens-plugin",
+    "documentation-generator",
+    "html"
+  ],
+  "author": "UserLens AI Assistant",
+  "license": "MIT",
+  "userlens": {
+    "type": "generator",
+    "name": "HTML Documentation Generator",
+    "formats": ["html"]
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

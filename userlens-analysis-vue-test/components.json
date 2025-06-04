@@ -1,0 +1,24 @@
+[
+  {
+    "name": "C:\\Work\\app_docs\\UserLens\\examples\\vue-test-app\\src\\MyButton",
+    "filePath": "examples\\vue-test-app\\src\\MyButton.vue",
+    "props": [
+      {
+        "name": "message",
+        "type": "string",
+        "required": false
+      }
+    ],
+    "children": [],
+    "userActions": [
+      {
+        "type": "click",
+        "trigger": "button",
+        "description": "Clicks a stub button",
+        "outcome": "Something happens"
+      }
+    ],
+    "semanticCategory": "display",
+    "description": "This is a stub analysis for the Vue component C:\\Work\\app_docs\\UserLens\\examples\\vue-test-app\\src\\MyButton."
+  }
+]

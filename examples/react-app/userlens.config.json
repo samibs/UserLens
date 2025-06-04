@@ -1,0 +1,21 @@
+{
+  "framework": "react",
+  "entry": "./src",
+  "output": "./docs",
+  "theme": "default",
+  "features": [
+    "forms",
+    "navigation",
+    "authentication"
+  ],
+  "customMappings": {
+    "ProductSearch": "Search for Products",
+    "LoginForm": "Sign In Form",
+    "Navigation": "Main Menu"
+  },
+  "excludePatterns": [
+    "*.test.*",
+    "**/tests/**",
+    "**/utils/**"
+  ]
+} 

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "LoginForm",
+    "filePath": "examples\\react-app\\src\\components\\LoginForm.jsx",
+    "props": [
+      {
+        "name": "onLogin",
+        "type": "any",
+        "required": false
+      },
+      {
+        "name": "redirectUrl",
+        "type": "any",
+        "required": false
+      },
+      {
+        "name": "showRegisterLink",
+        "type": "any",
+        "required": false
+      }
+    ],
+    "children": [],
+    "userActions": [],
+    "semanticCategory": "form",
+    "description": "Sign in to your account"
+  },
+  {
+    "name": "Navigation",
+    "filePath": "examples\\react-app\\src\\components\\Navigation.jsx",
+    "props": [
+      {
+        "name": "user",
+        "type": "any",
+        "required": false
+      },
+      {
+        "name": "onLogout",
+        "type": "any",
+        "required": false
+      }
+    ],
+    "children": [],
+    "userActions": [
+      {
+        "type": "navigation",
+        "trigger": "Navigation",
+        "description": "Click the navigation",
+        "outcome": "Navigates to another page"
+      }
+    ],
+    "semanticCategory": "navigation",
+    "description": "Navigate through the application"
+  },
+  {
+    "name": "ProductSearch",
+    "filePath": "examples\\react-app\\src\\components\\ProductSearch.jsx",
+    "props": [
+      {
+        "name": "onSearch",
+        "type": "any",
+        "required": false
+      },
+      {
+        "name": "categories",
+        "type": "any",
+        "required": false
+      }
+    ],
+    "children": [],
+    "userActions": [],
+    "semanticCategory": "layout",
+    "description": "Find what you need"
+  }
+]

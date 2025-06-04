@@ -1,0 +1,10 @@
+{
+  "newComponents": [
+    "examples\\vue-test-app\\src\\MyButton.vue"
+  ],
+  "changedComponents": [],
+  "deletedComponents": [],
+  "componentsJsonChanged": true,
+  "patternsJsonChanged": true,
+  "workflowsJsonChanged": true
+}
